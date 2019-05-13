@@ -99,8 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-color: #272727;
+		background-image: linear-gradient(to top, #272727, #747474), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -179,7 +179,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #ffe400 !important;
 		}
 
 		a.special:not(.button) {
@@ -362,6 +362,11 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.orange{
+		text-shadow: -1px -1px 0 #272727, 1px -1px 0 #272727, -1px 1px 0 #272727, 1px 1px 0 #272727;
+		color:#ff652f;
 	}
 
 /* Row */
@@ -2856,7 +2861,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.025);
+			background-color: #14A76C;
 		}
 
 		input[type="submit"]:active,
@@ -3429,7 +3434,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #272727;
-				background-image: linear-gradient(to top,#272727), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top,#272727, #747474), url("../../images/bg.jpg");
 				background-size: auto, cover;
 				background-position: center, center;
 				margin-bottom: -6.5em;
@@ -3723,7 +3728,7 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #747474;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
@@ -3731,11 +3736,11 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #ff652f, 0 1px 0 0 #ff652f;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #14a76c, 0 1px 0 0 #14A76C;
 			}
 
 			.wrapper.spotlight .inner {
